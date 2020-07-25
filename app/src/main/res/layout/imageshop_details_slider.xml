@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:card_view="http://schemas.android.com/apk/res-auto"
+android:orientation="vertical"
+android:layout_width="320dp"
+android:background="#00702525"
+android:layout_marginBottom="5dp"
+    android:layout_marginLeft="5dp"
+android:layout_height="220dp">
+
+<androidx.cardview.widget.CardView
+    android:layout_width="320dp"
+    android:layout_height="220dp"
+    card_view:cardElevation="2dp"
+    card_view:cardUseCompatPadding="true"
+    android:layout_weight="0.3"
+    android:id="@+id/select_v"
+    android:layout_marginRight="5dp"
+    android:background="#A1424141"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground">
+
+        <ImageView
+            android:layout_width="320dp"
+            android:layout_height="140dp"
+            android:id="@+id/image_slider"
+            />
+
+</androidx.cardview.widget.CardView>
+</LinearLayout>

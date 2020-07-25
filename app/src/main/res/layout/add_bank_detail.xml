@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".shopper_bank_details.Add_bank_detail">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/detail_ifsc"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ifsc_invisible"
+            android:orientation="vertical"
+            >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter IFSC Code to know Bank details"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:id="@+id/ifsc_code_hide"
+        android:padding="15dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/ifsc"
+        android:hint="IFSC CODE"
+        android:background="@drawable/radiuss"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="15dp"
+        android:textSize="14sp"
+        android:inputType="text"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="@color/white"
+        android:id="@+id/verify"
+        android:text="Get Details"
+        android:textStyle="normal"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:backgroundTint="@color/button"
+        android:background="@drawable/radius"
+        android:layout_gravity="center"
+        android:paddingRight="20dp"
+         />
+        </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:padding="15dp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter UPI Details"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:padding="15dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter UPI Bank name"
+        android:layout_marginLeft="18dp"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/upi_bank_name"
+        android:hint="PhonePay/Gpay/Paytm"
+        android:background="@drawable/radiuss"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        android:textSize="14sp"
+        android:inputType="text"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter UPI NO"
+        android:layout_marginLeft="18dp"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/upi_no"
+        android:hint="85400***@okaxis"
+        android:background="@drawable/radiuss"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        android:textSize="14sp"
+        android:inputType="text"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter UPI Holder name"
+        android:layout_marginLeft="18dp"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/holder_name"
+        android:hint="IFSC CODE"
+        android:background="@drawable/radiuss"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        android:textSize="14sp"
+        android:inputType="text"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="@color/white"
+        android:text="Add Now"
+        android:textStyle="normal"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:backgroundTint="@color/button"
+        android:background="@drawable/radius"
+        android:layout_gravity="center"
+        android:paddingRight="20dp"
+        />
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_payment"
+        android:title="My Account" />
+
+    <item
+        android:id="@+id/my_booking"
+        android:icon="@drawable/ic_wallet"
+        android:title="My Orders" />
+
+    <item
+        android:id="@+id/wallet"
+        android:icon="@drawable/ic_wallet"
+        android:title="Wallet" />
+    <item
+        android:id="@+id/sell_buy"
+        android:icon="@drawable/ic_sell_buy"
+        android:title="Sell/Buy Your product" />
+
+    <item
+        android:id="@+id/add_money"
+        android:icon="@drawable/ic_rating"
+        android:title="Manage Delivery Address" />
+
+
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/ic_share"
+        android:title="Share" />
+
+            <item
+                android:id="@+id/notification"
+                android:icon="@drawable/ic_notifications"
+                android:title="Notification" />
+
+    <item
+        android:id="@+id/help"
+        android:icon="@drawable/ic_help"
+        android:title="Help " />
+
+    <item android:id="@+id/logout"
+        android:title="Logout"
+        android:icon="@drawable/ic_pass_icon"/>
+
+</menu>

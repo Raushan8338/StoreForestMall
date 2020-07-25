@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.storeforest.storeforest">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission. ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".mobile.Mobile_details"
+            android:theme="@style/AppThemes"
+            ></activity>
+        <activity
+            android:name=".Jawellery.jawellery_item.Jawelerry_item_details"
+            android:parentActivityName=".Jawellery.Jawellry_shop_details" />
+        <activity
+            android:name=".Jawellery.Jawellry_shop_details"
+            android:parentActivityName=".navigation.Home" />
+        <activity
+            android:name=".mobile.mobiles_item.Mobile_items"
+            android:theme="@style/AppThemes"
+            android:parentActivityName=".mobile.Mobile_display" />
+        <activity
+            android:name=".mobile.Mobile_display"
+            android:parentActivityName=".navigation.Home"
+            android:theme="@style/AppThemes" />
+        <activity
+            android:name=".hotel.hotel_item_list.Hotel_item_details"
+            android:parentActivityName=".hotel.Hotel_list_display" />
+        <activity
+            android:name=".hotel.Hotel_list_display"
+            android:parentActivityName=".navigation.Home" />
+        <activity android:name=".second_hand_product.sec_upload_img.Add_second_hand_img4" />
+        <activity android:name=".second_hand_product.sec_upload_img.Add_second_hand_img3" />
+        <activity android:name=".second_hand_product.sec_upload_img.Add_second_hand_img2" />
+        <activity android:name=".second_hand_product.Second_hand_thank_you" />
+        <activity
+            android:name=".second_hand_product.sec_upload_img.Add_second_hand_img"
+            android:parentActivityName=".second_hand_product.Second_hand_product_details" />
+        <activity
+            android:name=".second_hand_product.Add_second_hand_product"
+            android:parentActivityName=".second_hand_product.Second_select_category" />
+        <activity
+            android:name=".second_hand_product.manage_second_hand.Manage_second_hand"
+            android:parentActivityName=".second_hand_product.Second_select_category" />
+        <activity
+            android:name=".second_hand_product.Second_hand_product_details"
+            android:parentActivityName=".second_hand_product.second_hand_item.Second_hand_product_item" />
+        <activity
+            android:name=".second_hand_product.second_hand_item.Second_hand_product_item"
+            android:parentActivityName=".second_hand_product.Second_select_category" />
+        <activity
+            android:name=".second_hand_product.Second_select_category"
+            android:parentActivityName=".navigation.Home" />
+        <activity android:name=".Enter_forget_password" />
+        <activity android:name=".Forget_verify_otp" />
+        <activity
+            android:name=".Verify_otp"
+            android:parentActivityName=".Register" />
+        <activity android:name=".shopper_bank_details.Display_bank_detail" />
+        <activity android:name=".shopper_bank_details.Insert_bank_detail" />
+        <activity android:name=".Wallet_payment_status" />
+        <activity android:name=".shopper_bank_details.Add_bank_detail" />
+        <activity android:name=".Address_update_thnku" />
+        <activity
+            android:name=".Update_address"
+            android:parentActivityName=".manage_account.Manage_account" />
+        <activity
+            android:name=".manage_account.Manage_account"
+            android:parentActivityName=".navigation.Home" />
+        <activity android:name=".welcome_slider.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".order_details.Pending_order" />
+        <activity android:name=".order_details.Cancel_order_thanku" />
+        <activity android:name=".order_details.Thank_you_order" />
+        <activity
+            android:name=".booking_details.Booking_details"
+            android:parentActivityName=".navigation.Home" />
+        <activity
+            android:name=".Select_Location"
+            android:parentActivityName=".navigation.Home" />
+        <activity
+            android:name=".user_wallet.User_wallet"
+            android:parentActivityName=".navigation.Home" />
+        <activity
+            android:name=".Shop_details_category.Shop_items"
+            android:parentActivityName=".Shop_Category.Shop_category" />
+        <activity
+            android:name=".shop_info.Favroite_shop"
+            android:parentActivityName=".navigation.Home" />
+        <activity android:name=".notification.Live_chat" />
+        <activity
+            android:name=".notification.Notifications"
+            android:parentActivityName=".navigation.Home" />
+        <activity
+            android:name=".Add_address"
+            android:parentActivityName=".addTocart.Display_cart_details" />
+        <activity android:name=".Shop_Category.Shop_category" />
+        <activity
+            android:name=".shop_info.Kirana_stores"
+            android:parentActivityName=".navigation.Home" />
+        <activity
+            android:name=".navigation.Home"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".order_details.Order_details"
+            android:parentActivityName=".navigation.Home" />
+        <activity
+            android:name=".payment.Payment_success"
+            android:parentActivityName=".navigation.Home" />
+        <activity
+            android:name=".shop_info.Display_shop"
+            android:parentActivityName=".navigation.Home" />
+        <activity
+            android:name=".payment.Payment"
+            android:parentActivityName=".addTocart.Display_cart_details" />
+        <activity android:name=".Register" />
+        <activity android:name=".Login" />
+        <activity
+            android:name=".shop_info.Profile_menu"
+            android:parentActivityName=".shop_info.Display_shop" />
+        <activity
+            android:name=".addTocart.Display_cart_details"
+            android:parentActivityName=".navigation.Home" />
+        <activity
+            android:name=".shop_item_display.Shop_details"
+            android:parentActivityName=".navigation.Home" />
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2895663520931288~1002352331" />
+    </application>
+
+</manifest>

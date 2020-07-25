@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Add_address">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="55dp"
+        >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Personal Dettails"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        >
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:id="@+id/first_name"
+            android:layout_height="wrap_content"
+            android:hint="First Name"
+            />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:id="@+id/last_name"
+            android:layout_height="wrap_content"
+            android:hint="First Name"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+         android:text="* Contact numberto say hello"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Contact No"
+        android:inputType="number"
+        android:id="@+id/contact_no"
+        android:padding="15dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address Dettails"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        >
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:id="@+id/house_no"
+            android:inputType="number"
+            android:layout_height="wrap_content"
+            android:hint="* House no"
+            />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:id="@+id/apartment_no"
+            android:layout_height="wrap_content"
+            android:hint="Apartment name"
+            />
+
+    </LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/street_name"
+        android:layout_marginRight="10dp"
+        android:hint="Street details to locate you"
+        android:padding="15dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/landmark"
+        android:hint="Landmark for easy reach out"
+        android:padding="15dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/pincode"
+        android:layout_marginRight="10dp"
+        android:hint="Pin Code"
+        android:padding="15dp"
+        android:inputType="number"
+        />
+</LinearLayout>
+    </ScrollView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/order_now"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="60dp"
+                android:id="@+id/proceed"
+                android:backgroundTint="@color/button"
+                android:text="Add Address"
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

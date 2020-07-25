@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+       <ImageView
+           android:layout_marginTop="45dp"
+           android:layout_gravity="center_horizontal"
+           android:layout_width="150dp"
+           android:paddingBottom="8dp"
+           android:paddingTop="4dp"
+           android:scaleType="fitXY"
+           android:id="@+id/user_profile"
+           android:layout_height="150dp"
+           android:src="@drawable/user"
+           />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Raushan Kumar"
+            android:textColor="@color/black"
+            android:textSize="22dp"
+            android:id="@+id/user_name"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Switch to Partner"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp"
+            android:id="@+id/switchtopartner"
+            android:textSize="19dp"
+            android:drawableRight="@drawable/ic_greter"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bookmarks"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp"
+            android:textSize="19dp"
+            android:drawableRight="@drawable/ic_greter"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Notification"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp"
+            android:textSize="19dp"
+            android:drawableRight="@drawable/ic_greter"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Food Order"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp"
+            android:textSize="19dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Order"
+            android:id="@+id/order"
+            android:padding="8dp"
+            android:layout_marginLeft="13dp"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Feedback"
+            android:padding="8dp"
+            android:layout_marginLeft="13dp"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Favorite order"
+            android:padding="8dp"
+            android:layout_marginLeft="13dp"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About "
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp"
+            android:textSize="19dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send feedback"
+            android:padding="8dp"
+            android:layout_marginLeft="13dp"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact Us"
+            android:padding="8dp"
+            android:layout_marginLeft="13dp"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rate us on play store"
+            android:padding="8dp"
+            android:layout_marginLeft="13dp"
+            android:id="@+id/playrating"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:padding="8dp"
+            android:id="@+id/login"
+            android:layout_marginLeft="13dp"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            />
+    </LinearLayout>
+
+</ScrollView>

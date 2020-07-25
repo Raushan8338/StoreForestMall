@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "193374298287",
+    "firebase_url": "https://store-forest-fc0e3.firebaseio.com",
+    "project_id": "store-forest-fc0e3",
+    "storage_bucket": "store-forest-fc0e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193374298287:android:d298a5d2d9af0c7385745a",
+        "android_client_info": {
+          "package_name": "com.storeforest.storeforest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "193374298287-9mrh24eeatpoot3mjanu4edvofm9ppcm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBUkHyIp0h3LG34X_uRCb6qKa6L26q3oA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "193374298287-9mrh24eeatpoot3mjanu4edvofm9ppcm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
